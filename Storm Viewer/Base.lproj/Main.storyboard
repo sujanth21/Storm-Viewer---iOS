@@ -47,6 +47,38 @@
             </objects>
             <point key="canvasLocation" x="1008.8" y="105.69715142428787"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="MTB-G3-jfQ">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="Am4-Yo-G3d" customClass="DetailViewController" customModule="Storm_Viewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RfY-EJ-kDY"/>
+                        <viewControllerLayoutGuide type="bottom" id="hLs-o0-VLl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yl3-6g-iMQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6ac-Y3-VXh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6ac-Y3-VXh" firstAttribute="top" secondItem="Yl3-6g-iMQ" secondAttribute="top" id="MU4-j6-E58"/>
+                            <constraint firstItem="6ac-Y3-VXh" firstAttribute="bottom" secondItem="hLs-o0-VLl" secondAttribute="top" id="fpa-dS-zLN"/>
+                            <constraint firstItem="6ac-Y3-VXh" firstAttribute="leading" secondItem="Yl3-6g-iMQ" secondAttribute="leading" id="ubZ-qZ-9E6"/>
+                            <constraint firstAttribute="trailing" secondItem="6ac-Y3-VXh" secondAttribute="trailing" id="wHd-Nv-xLv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="6ac-Y3-VXh" id="gCB-GB-9Yi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jyf-Uf-EdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1824.8" y="105.69715142428787"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="He8-Jf-d11">
             <objects>
